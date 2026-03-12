@@ -41,16 +41,19 @@ Ensure you have the following libraries installed:
 
 Bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn plotly streamlit joblib
+
 2. Training the Model
 If you want to re-train the model or update the weights:
 
 Bash
 python train.py
+
 3. Launching the Web App
 To view the interactive valuer:
 
 Bash
 streamlit run app.py
+
 📈 Model Performance
 Based on the final evaluation:
 
